@@ -10,7 +10,7 @@ sudo snap install cmake --classic
 # Nota: Para conferir qual a versão cmake foi instalada
 cmake --version
 # 3°) Precisei tornar "python3" o python padrão no meu sistema, fiz um link simbólico
-sudo ln -s /usr/bin/python3 /usr/bin/python
+sudo ln -s /usr/bin/python /usr/bin/python3
 # Nota:caso já tenha outra versão, remover o link antes de executar o comando anterior
 # 4°) instalar um módulo do python3
 sudo apt-get install python3-pyparsing
