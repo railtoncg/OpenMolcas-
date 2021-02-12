@@ -1,6 +1,11 @@
 # OpenMolcas-
 # Etapas para instalar o OpenMolcas
 # Para instalar o OpenMolcas na minha máquina (Um notebook Lenovo ideapad com Intel© Core™ i3, 3.8GiB memória, usando Linux Mint 19.3 Cinnamon) precisei executar algumas etapas
+# Esse procedimento foi realizado em 21 de Janeiro de 2021
+# Evidentemente que a mudança de versão ou atualização na sua máquina pode influenciar,
+# tanto no funcionamento desse mesmo procedimento em sua máquina
+# bem como no 
+#
 # 1°) instalar um compilador fortran, no meu caso foi o gfortran
 sudo apt-get install gfortran
 # 2°) instalar a versão do cmake posteriar a versão "10.0"
@@ -25,8 +30,6 @@ cd OpenMolcas-2021/
 sudo cmake ../OpenMolcas/
 sudo make
 pymolcas verify
+ln -s pymolcas molcas
 # 6°) Adicionar as informações sobre o OpenMolcas no ".bash_aliases" ou no ".bashrc"
 
-
-Compilar o OpenMolcas
-sudo cmake ../OpenMolcas-master/
