@@ -9,7 +9,10 @@
 # 1°) instalar um compilador fortran, no meu caso foi o gfortran
 sudo apt-get install gfortran
 # 2°) instalar a versão do cmake posteriar a versão "10.0"
-sudo apt-get install snapd && sudo apt remove --purge cmake && sudo apt-get purge cmake && sudo snap install cmake --classic
+sudo apt-get install snapd
+sudo apt remove --purge cmake
+sudo apt-get purge cmake
+sudo snap install cmake --classic
 # Nota: Para conferir qual a versão cmake foi instalada
 cmake --version
 # 3°) Precisei tornar "python3" o python padrão no meu sistema, fiz um link simbólico
